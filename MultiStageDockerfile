@@ -1,10 +1,10 @@
 #git
 FROM alpine/git as repo
 
-MAINTAINER devopstrainingblr@gmail.com
+MAINTAINER aadhyadevopstraining@gmail.com
 
 WORKDIR /app
-RUN git clone https://github.com/MithunTechnologiesDevOps/maven-web-application.git
+RUN git clone https://github.com/AadhyaDevOpstraining/maven-web-application.git
 
 #Maven
 FROM maven:3.5-jdk-8-alpine as build
