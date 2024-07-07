@@ -1,9 +1,12 @@
 #Install Ubuntu
-
 #sudo apt-get update
+
 #sudo apt-get install curl -y
+
 #curl -fsSL get.docksal.io | bash
+
 #sudo usermod -aG docker ubuntu
+
 
 sudo docker images 	                  --it will list all images that are locally stored with the docker engin
 sudo docker image ls 									--it will list all images that are locally stored with the docker engin 
