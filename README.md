@@ -10,7 +10,9 @@
 
 
 sudo docker images 	                  --it will list all images that are locally stored with the docker engin
+
 sudo docker image ls 									--it will list all images that are locally stored with the docker engin 
+
 ===============================
 sudo docker login -u userid -p  password 
 
