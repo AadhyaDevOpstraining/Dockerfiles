@@ -14,19 +14,25 @@ sudo docker images 	                  --it will list all images that are locally
 sudo docker image ls 									--it will list all images that are locally stored with the docker engin 
 
 ===============================
+
 sudo docker login -u userid -p  password 
 
 sudo docker images                 ---> to see docker images
+
 sudo docker pull hello-world       ---> to pull hello
+
 sudo docker image imagename        ---> it will give perticularimage details 
+
 sudo docker images -q 			       ---> it will display docker imagesid id only
 
 sudo docker rmi  imagename /imageid         ---> it will delete images
+
 sudo docker rmi -f imagename/imageid        ----> with image id also we can remove or forcely delete imagename 
 
 sudo docker images                          ----> check hello-world image avilable (it will downlode from docker hub)
 
 sudo docker container ls --all              ----> it will list all the containers
+
 sudo docker run hellow-world                ----> check hellow world container is created or not
 sudo docker container ls                    ----> it will list the containers
 sudo docker rm containerid                  ----> it will delete container
