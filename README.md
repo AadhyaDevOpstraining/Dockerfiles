@@ -162,3 +162,70 @@ a
  
 sudo docker run -p 8090:8080 -p 9990:9990 -d --name wildfilycontainer wildfilyimage (wildfliy admin port mapping )
 ========================================================================
+
+
+
+Docker compose 
+
+===============
+sudo apt-get update
+
+sudo apt-get install curl -y
+
+curl -fsSL get.docksal.io | bash
+
+sudo usermod -aG docker ubuntu
+
+sudo apt-get install docker-compose 
+
+sudo dockercompose version
+
+sudo docker-compose --version 
+
+/home/ubuntu/Docker-compose-files/Doker-Compose-Projects/wordpress-mysql/wordress-docker-compose
+
+sudo docker-compose config 
+
+sudo docker images 
+
+sudo docker pull 
+
+sudo docker-compose up -d
+
+sudo docker ps 
+
+check port number and loging with hostname and port number 
+
+sudo docker-compose down
+
+sudo docker-compose --help
+
+
+cd /home/ubuntu/Doker-Compose-Projects/springboot-mongo-demo-master
+
+sudo docker-compose config
+
+sudo docker volume create data
+
+sudo docker volume create data-bkp
+
+sudo docker volume ls 
+
+sudo docker-compose up -d 
+
+springboot-mango-demo-master
+----------------------------
+
+docker-compose build 
+
+docker-compose images 
+
+docker-compose push mallikarjuna89/
+
+docker volume create --name=data 
+
+docker volume create --name=date-bkp
+
+docker-compose up -d 
+
+docker-compose ps 
